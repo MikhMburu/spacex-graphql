@@ -1,0 +1,18 @@
+{
+  "name": "spacex-graphql",
+  "version": "1.0.0",
+  "description": "An app that lists launches from spacex",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Michael N",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0"
+  }
+}
